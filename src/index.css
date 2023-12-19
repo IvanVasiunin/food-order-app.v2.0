@@ -38,10 +38,6 @@ body {
 #main-header button {
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif;
-  color: #ffc404;
-  background: none;
-  border: none;
-  cursor: pointer;
 }
 
 h1 {
@@ -71,8 +67,6 @@ h1 {
   overflow: hidden;
   text-align: center;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
-  position: relative;
-  padding-bottom: 4rem;
 }
 
 .meal-item article {
@@ -110,26 +104,7 @@ h1 {
 }
 
 .meal-item-actions {
-  position: absolute;
-  bottom: 1.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 1.1rem;
-  font-family: 'Lato', sans-serif;
-  background-color: #ffc404;
-  border: 1px solid #ffc404;
-  color: #1f1a09;
-  border: none;
-  padding: 0.6rem 1.2rem;
-  border-radius: 0.2rem;
-  cursor: pointer;
-}
-
-.meal-item-actions:hover,
-.meal-item-actions:active {
-  background-color: #ffab04;
-  border-color: #ffab04;
-  color: #1f1a09;
+  margin-bottom: 1.5rem;
 }
 
 .cart h2 {
